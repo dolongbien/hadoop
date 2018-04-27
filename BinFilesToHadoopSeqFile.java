@@ -71,7 +71,6 @@ public class BinFilesToHadoopSeqFile {
 
     }
 
-}
 
 public static void main(String[] args) throws Exception {
 
@@ -97,4 +96,5 @@ public static void main(String[] args) throws Exception {
 
     System.exit(job.waitForCompletion(true) ? 0 : 1);
 
+   }
 }
